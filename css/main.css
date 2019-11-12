@@ -350,7 +350,9 @@ h4 {
 }
 .subpage p, .subpage li, .contactContent p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
+	font-size: 19px;
+letter-spacing: 1px;
+margin-bottom: 10px;
 }
 .subpage li {
 	font-size: 17px;
@@ -358,7 +360,7 @@ h4 {
 .subpage .sub-title {
 	font-family: 'Pacifico', cursive;
 	color: #a0a0a0;
-	margin: 20px 0;
+	margin: 30px 0;
 	text-align: center;
 	text-transform: inherit;
 }
@@ -371,6 +373,8 @@ h4 {
 	}
 }
 @media (min-width: 481px) and (max-width:767px) {}
+
+
 @media (max-width: 767px) {
 	.top-logo {
 		height: auto
@@ -462,8 +466,19 @@ h4 {
 		clear: both;
 		padding: 15px 0;
 	}
+	.qualifications ul li, 
+	.qualifications2 ul li, 
+	.qualifications3 ul li {
+		text-align:center!important;
+}
+.qualifications, .qualifications2 .qualifications3 {
+    margin-top: 10px!important;
+    margin-bottom:10px!important;
+}
 }
 @media (min-width: 768px) {}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
 	#banerContainer .carousel-inner {
 		height: 424px;
@@ -492,4 +507,36 @@ h4 {
 	.top-logo img {
 		top: 3px;
 	}
+}
+
+.qualifications, .qualifications2 .qualifications3 {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.qualifications ul li {
+    list-style: none;
+    height: 40px;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+
+.qualifications2 ul li {
+    list-style: none;
+    height: 40px;
+    text-align:center;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+
+.qualifications3 ul li {
+    list-style: none;
+    height: 40px;
+    text-transform: capitalize;
+    text-align:right;   
+    margin-top: 12px;
+}
+
+.subpage ul {
+    padding-left: 0px;
 }
