@@ -410,7 +410,7 @@ margin-bottom: 10px;
 	#menu #nav-right li {
 		display: block;
 		padding: 0;
-		border-bottom: 1px solid #000;
+		border-bottom: 0.1px solid #c6c6c6;
 	}
 	#menu #nav-right .current {
 		background: #009ee0;
