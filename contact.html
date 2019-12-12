@@ -61,6 +61,15 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 
+		<script>
+		$(document).ready(function(){
+		  $('#menu-button').click(function(){
+		    $('#menu-top').stop().slideToggle(300);
+		  });
+		});
+		</script>
+
+
     </head>
     
     <body>
@@ -98,21 +107,24 @@
 						  </div>  
 						  <div class="clearfix">
 						  </div>
-                        <nav id="nav-right"><ul id="menu-top">
-  <li class="first">
-    <a href="index.html">Welcome</a>
-  </li>
-  <li>
-    <a href="about-me.html">Qualifications</a>
-  </li>
-  <li>
-    <a target="_blank" href="https://www.instagram.com/ananamyknight/">Gallery</a>
-  </li>
-  <li class="last">
-    <a href="contact.html">Contact</a>
-  </li>
-</ul>
-</nav>
+						  
+						  
+                        <nav id="nav-right">
+                        	<ul id="menu-top">
+  								<li class="first">
+								    <a href="index.html">Home</a>
+ 								</li>
+								<li>
+									<a href="services.html">Services</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.instagram.com/ananamyknight/">Gallery</a>
+								</li>
+								<li class="last">
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</nav>
                         </div>
                     </div>
                 </div>
